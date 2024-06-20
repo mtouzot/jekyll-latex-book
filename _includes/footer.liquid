@@ -1,0 +1,11 @@
+<div class="footer">
+  <span class="block">&copy;
+    {% assign this_year = site.time | date: '%Y' %}
+    {% if site.start_year == this_year or site.start_year == "" or site.start_year == nil %}
+      {{ this_year }}
+    {% else %}
+      {{site.start_year}} - {{ this_year }}
+      {{site.start_year.blank}}
+    {% endif %}
+    {{ site.author_name }}</span>
+</div>
