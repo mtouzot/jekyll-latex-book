@@ -4,7 +4,7 @@
     <img src="./assets/jekyll_latex_cover_art.png">
 </p>
 
-  [![LICENSE](https://img.shields.io/github/license/mtouzot/jekyll-latex)](LICENSE.md) 
+  [![LICENSE](https://img.shields.io/github/license/mtouzot/jekyll-latex-book)](LICENSE.md) 
 
 
 ## Features
@@ -19,7 +19,7 @@
 
 ## Installation
 ```
-git clone https://github.com/mtouzot/jekyll-latex.git
+git clone https://github.com/mtouzot/jekyll-latex-book.git
 
 bundle install
 
